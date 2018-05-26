@@ -1,0 +1,104 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 18, 2018, 6:12:29 PM
+    Author     : mahe
+*/
+
+/* Global Styles */
+
+table{font:12px "verdana";}
+select,textarea,input{
+	
+}
+a{color:white;	text-decoration: none; background-repeat:no-repeat;}
+a:hover{color:yellow;}
+
+/* ID Styles */
+#messagebar {background:url(message.jpg) repeat-x;height:25px; }
+
+#navigation a {
+	display:block;
+	padding-top:5px;
+	height:26px;
+	background-image:url(navigation.jpg);		
+	}
+
+#navigation td{
+	width:160px;
+ 	text-align: left;
+	text-indent:25px;
+	padding-bottom:3px;		
+}
+#navigation a:hover {
+	background-image:url(navhover.jpg);
+}
+
+#info{
+ background-image:url(message.jpg);
+ background-repeat:repeat-x;
+ padding-left:30px;
+}
+
+#footer tr{
+	height:48px;
+	background: url('footer.jpg');
+	text-align: center;
+	vertical-align: middle;
+}
+#seattable td{
+	text-align:center;
+	width:15px;
+}
+
+/*Form styles*/
+#register div,label{
+	padding-left: 20px;
+}
+
+#register td{padding-right:10px;}
+
+#admintable select{width: auto;}
+
+/* Classses */
+.navigation{
+	height:26px;
+	width:80px;
+	padding-top:5px;
+	text-align:center;
+	display:block;
+	background-image:url("button.jpg");
+	margin-left:20px;
+}
+.navigation:hover{
+	background-image: url("buttonhover.jpg");
+}	
+.pageName{
+	font-size: 24px;
+}
+.subtitle{
+	font-size: 20px;
+}
+
+.customButton{
+	height:26px;
+	width:80px;
+	border:0px;
+	color:white;
+	background-color: transparent;
+	background-image:url("button.jpg");	
+}
+
+.customButton:hover{
+	background-image: url("buttonhover.jpg");
+}
+
+.adminRow{	
+	background-image:url(admintable.jpg);
+}
+.adminRow:hover{
+	background-image: url(admintablehover.jpg);
+}
