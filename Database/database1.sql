@@ -49,6 +49,8 @@ INSERT INTO `adminauth` VALUES (20,'anand123','anand','9945393423','9-5-1997','m
 UNLOCK TABLES;
 
 
+
+
 DROP TABLE IF EXISTS `customerlogin`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
