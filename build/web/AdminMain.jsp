@@ -52,7 +52,6 @@
         String name = request.getParameter("userid");
 	String pass = request.getParameter("pass");
         %>
- 
 <table width="100%">
 	<tr><td>
 		<table><tr><td  valign="top">
